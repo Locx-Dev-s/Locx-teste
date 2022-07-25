@@ -11,7 +11,7 @@ describe('App Page', () => {
 
     fireEvent.change(taskInput, {
       target: {
-        value: 'c',
+        value: 'teste',
       },
     });
     fireEvent.click(addTaskButton);
